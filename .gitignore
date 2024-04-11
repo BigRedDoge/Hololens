@@ -1,1 +1,8 @@
 venv
+Library
+Temp
+UserSettings
+Logs
+.vsconfig
+.csproj
+.sln
