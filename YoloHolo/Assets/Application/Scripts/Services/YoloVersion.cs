@@ -7,5 +7,7 @@ namespace YoloHolo.Services
     {
         V7 = 7,
         V8 = 8
+
+        Segmentation = 9
     }
 }
