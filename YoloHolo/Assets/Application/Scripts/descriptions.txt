@@ -5,8 +5,8 @@ Services/YoloItem.cs: Contains the class definition for a single YOLO item - a b
 Services/TensorExtensions.cs:
     - ProcessV8Item method: input - tensor and class translator
         for each item in tensor, if item has confidence above threshold, add most likely class and remove overlapping boxes
-
-Services/IYoloClassTranslator: Calls GetName from translator class to get class name
+    - GetYoloData method: input - tensor, YoloClassTranslator
+        calls ProcessV8Item and returns list of YoloItems
 
 Services/YoloVersion.cs: Enum for a YOLO version
 
@@ -24,7 +24,10 @@ YoloLabeling/YoloObjectLabler.cs: Contains the class definition for a YOLO objec
     - ShowRecognitions method: draws class names on frame
 
 What to do for segmentation:
-- Create new YoloVersion version for V8 segmentation
-- Create new YoloV8SegementationItem.cs that handles calculating segmentation masks and class probabilities
+- Create new YoloVersion version for segmentation
+- Create new YoloSegementationItem.cs that handles calculating segmentation masks and class probabilities
 - Create YoloSegmentationItem that contains the class definition for mask and class probabilities 
-- Add GetYoloSegmentationData and ProcessV8SegmentationItem to TensorExtensions.cs
+- Add GetYoloSegmentationData and ProcessSegmentationItem to TensorExtensions.cs
+- Update ShowRecognitions in YoloObjectLabler to draw segmentation masks
+- Create new YoloGameObject class for segmentation masks
+- Remove RemoveOverlappingBoxes from FindMostLikelyObject in TensorExtensions.cs
