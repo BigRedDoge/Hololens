@@ -24,10 +24,10 @@ YoloLabeling/YoloObjectLabler.cs: Contains the class definition for a YOLO objec
     - ShowRecognitions method: draws class names on frame
 
 What to do for segmentation:
-- Create new YoloVersion version for segmentation
+- ✅ Create new YoloVersion version for segmentation
 - Create new YoloSegementationItem.cs that handles calculating segmentation masks and class probabilities
 - Create YoloSegmentationItem that contains the class definition for mask and class probabilities 
-- Add GetYoloSegmentationData and ProcessSegmentationItem to TensorExtensions.cs
+- ✅ Add GetYoloSegmentationData and ProcessSegmentationItem to TensorExtensions.cs
 - Update ShowRecognitions in YoloObjectLabler to draw segmentation masks
 - Create new YoloGameObject class for segmentation masks
-- Remove RemoveOverlappingBoxes from FindMostLikelyObject in TensorExtensions.cs
+- ✅ Remove RemoveOverlappingBoxes from FindMostLikelyObject in TensorExtensions.cs
