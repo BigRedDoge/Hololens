@@ -1,0 +1,30 @@
+Services/YoloV8Item.cs: Calculates box coordinates and class probabilities for a single image
+
+Services/YoloItem.cs: Contains the class definition for a single YOLO item - a bounding box with class probabilities
+
+Services/TensorExtensions.cs:
+    - ProcessV8Item method: input - tensor and class translator
+        for each item in tensor, if item has confidence above threshold, add most likely class and remove overlapping boxes
+
+Services/IYoloClassTranslator: Calls GetName from translator class to get class name
+
+Services/YoloVersion.cs: Enum for a YOLO version
+
+Services/YoloProcessorProfile.cs: Profile for YOLO processor
+    - can set confidence threshold, overlap threshold, YoloClassTranslator, and YoloVersion
+
+Services/YoloProcessor: Contains the class definition for a YOLO processor
+    - RecognizeObjects method: input - 2d texture of camera frame
+        converts texture to tensor, calls model task, gets yolo data (from GetYoloData tensor extension), and returns Task list of YoloItems
+
+YoloLabeling/YoloObjectLabler.cs: Contains the class definition for a YOLO object labeler
+    - fields for camera fps, yolo size, other settings
+    - Start method: starts camera and IYoloProcessor service and StartRecognizingAsync method
+    - StartRecognizingAsync Task method: gets camera frame, calls yolo on frame (RecognizeObjects method in YoloProcessor), and labels objects (ShowRecognitions)
+    - ShowRecognitions method: draws class names on frame
+
+What to do for segmentation:
+- Create new YoloVersion version for V8 segmentation
+- Create new YoloV8SegementationItem.cs that handles calculating segmentation masks and class probabilities
+- Create YoloSegmentationItem that contains the class definition for mask and class probabilities 
+- Add GetYoloSegmentationData and ProcessV8SegmentationItem to TensorExtensions.cs
