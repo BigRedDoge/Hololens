@@ -8,6 +8,11 @@ namespace YoloHolo.Services
 {
     public static class TensorExtensions
     {
+        /*
+         * This method is used to get the Yolo data from the tensor.
+         * It takes the tensor, a translator, the minimum probability, the overlap threshold, and the Yolo version.
+         * It returns a list of Yolo items.
+        */
         public static List<YoloItem> GetYoloData(this Tensor tensor, IYoloClassTranslator translator, 
             float minProbability, float overlapThreshold, YoloVersion version = YoloVersion.V7)
         {
@@ -19,8 +24,32 @@ namespace YoloHolo.Services
             {
                 return tensor.ProcessV8Item(translator, minProbability, overlapThreshold, version);
             }
+            if (version == YoloVersion.Segmentation)
+            {
+                return tensor.ProcessSegmentationItem(translator, minProbability, version);
+            }
             throw new ArgumentException($"Unsupported Yolo version {version}");
             
+        }
+
+        private static List<YoloSegmentationItem> ProcessSegmentationItem(this Tensor tensor, IYoloClassTranslator translator,
+            float minProbability, YoloVersion version)
+        {
+            float maxConfidence = 0;
+            var masksMeetingConfidenceLevel = new List<YoloSegmentationItem>();
+            for (var i = 0; i < tensor.width; i++)
+            {
+                var yoloItem = new YoloSegmentationItem(tensor, i, translator, version);
+                maxConfidence = yoloItem.Confidence > maxConfidence ? yoloItem.Confidence : maxConfidence;
+                if (yoloItem.Confidence > minProbability)
+                {
+                    masksMeetingConfidenceLevel.Add(yoloItem);
+                }
+            }
+
+            Debug.Log($"max confidence = {maxConfidence}");
+
+            return FindMostLikelySegObject(masksMeetingConfidenceLevel, overlapThreshold);
         }
 
         private static List<YoloItem> ProcessV7Item(this Tensor tensor, IYoloClassTranslator translator,
@@ -43,6 +72,13 @@ namespace YoloHolo.Services
             return FindMostLikelyObject(boxesMeetingConfidenceLevel, overlapThreshold);
         }
 
+        /*
+         * This method is used to find the most likely object.
+         * It takes a tensor (camera), class translator, minimum class probability, overlap threshold, and yolo version.
+         * It loops through the tensor and creates a new YoloItem fo each
+         *  if the confidence is greater than the minimum probability it adds it to the list of boxesMeetingConfidenceLevel.
+         * returns the most likely object.
+        */
         private static List<YoloItem> ProcessV8Item(this Tensor tensor, IYoloClassTranslator translator,
             float minProbability, float overlapThreshold, YoloVersion version)
         {
@@ -63,6 +99,12 @@ namespace YoloHolo.Services
             return FindMostLikelyObject(boxesMeetingConfidenceLevel, overlapThreshold);
         }
 
+        /*
+         * This method is used to find the most likely object.
+         * It takes a list of Yolo items and an overlap threshold.
+         * It finds the most likely object in the list of boxesMeetingConfidenceLevel.
+         * returns the result.
+        */
         private static List<YoloItem> FindMostLikelyObject(List<YoloItem> boxesMeetingConfidenceLevel, float overlapThreshold)
         {
             var result = new List<YoloItem>();
@@ -71,6 +113,19 @@ namespace YoloHolo.Services
             {
                 var boxesOfThisType = boxesMeetingConfidenceLevel.Where(b => b.MostLikelyObject == objType).ToList();
                 result.AddRange(RemoveOverlappingBoxes(boxesOfThisType, overlapThreshold));
+            }
+
+            return result;
+        }
+
+        private static List<YoloSegmentationItem> FindMostLikelySegObject(List<YoloSegmentationItem> masksMeetingConfidenceLevel)
+        {
+            var result = new List<YoloSegmentationItem>();
+            var recognizedTypes = masksMeetingConfidenceLevel.Select(b => b.MostLikelyObject).Distinct();
+            foreach (var objType in recognizedTypes)
+            {
+                var masksOfThisType = masksMeetingConfidenceLevel.Where(b => b.MostLikelyObject == objType).ToList();
+                result.AddRange(masksOfThisType);
             }
 
             return result;
