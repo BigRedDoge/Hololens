@@ -6,7 +6,7 @@ namespace YoloHolo.Services
     public enum YoloVersion
     {
         V7 = 7,
-        V8 = 8
+        V8 = 8,
 
         Segmentation = 9
     }
