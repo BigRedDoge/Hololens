@@ -7,7 +7,7 @@ import numpy as np
 
 
 def main():
-    model = YOLO(r'C:\Users\Sean\Documents\Robotics\runs\segment\train6\weights\best.pt')
+    model = YOLO(r'best.pt')
     if torch.cuda.is_available():
         model.to('cuda')
 
@@ -15,7 +15,8 @@ def main():
 
     cap = cv2.VideoCapture(0)
     while True: 
-        ret, frame = cap.read()
+        #ret, frame = cap.read()
+        frame = cv2.imread('crack.jpeg')
         #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         result = model.predict(frame, conf=0.4, verbose=False)
 

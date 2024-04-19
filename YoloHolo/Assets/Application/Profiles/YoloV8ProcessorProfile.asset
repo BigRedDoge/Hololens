@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: YoloV8ProcessorProfile
   m_EditorClassIdentifier: 
   configurations: []
-  model: {fileID: 5022602860645237092, guid: fcbc9ddf0aefbf546a130dc8b77520f0, type: 3}
-  minimumProbability: 0.65
+  model: {fileID: 5022602860645237092, guid: b0e647079374d4e91a711b052b6eefd4, type: 3}
+  minimumProbability: 0.5
   overlapThreshold: 0.3
   channels: 3
   version: 8
   classTranslator:
-    reference: YoloHolo.YoloLabeling.V8AirplaneTranslator, Assembly-CSharp
+    reference: YoloHolo.YoloLabeling.CrackTranslator, Assembly-CSharp
