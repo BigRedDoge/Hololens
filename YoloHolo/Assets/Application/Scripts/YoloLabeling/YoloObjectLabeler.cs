@@ -72,14 +72,23 @@ namespace YoloHolo.YoloLabeling
                 var texture = renderTexture.ToTexture2D();
                 await Task.Delay(32);
 
-                var foundObjects = await yoloProcessor.RecognizeObjects(texture);
-                for (var index = 0; index < foundObjects.Count; index++)
-                {
-                    var obj = foundObjects[index];
-                    Debug.Log($"Found: {index} {obj.MostLikelyObject} : {obj.Confidence}");
-                }
+                if (yoloProcessor.version != YoloVersion.SEGMENTATION) {
+                    var foundObjects = await yoloProcessor.RecognizeObjects(texture);
+                    for (var index = 0; index < foundObjects.Count; index++)
+                    {
+                        var obj = foundObjects[index];
+                        Debug.Log($"Found: {index} {obj.MostLikelyObject} : {obj.Confidence}");
+                    }
 
-                ShowRecognitions(foundObjects, cameraTransform);
+                    ShowRecognitions(foundObjects, cameraTransform);
+                } else {
+                    var foundSegObjects = await yoloProcessor.RecognizeSegmentation(texture);
+                    for (var index = 0; index < foundSegObjects.Count; index++)
+                    {
+                        var obj = foundSegObjects[index];
+                        Debug.Log($"Found: {index} {obj.MostLikelyObject} : {obj.Confidence}");
+                    }
+                }
                 Destroy(texture);
                 Destroy(cameraTransform.gameObject);
             }

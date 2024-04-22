@@ -24,13 +24,20 @@ namespace YoloHolo.Services
             {
                 return tensor.ProcessV8Item(translator, minProbability, overlapThreshold, version);
             }
-            if (version == YoloVersion.Segmentation)
+
+            throw new ArgumentException($"Unsupported Yolo version {version}");
+        }
+
+        public static List<YoloSegmentationItem> GetYoloData(this Tensor tensor, IYoloClassTranslator translator,
+            float minProbability, YoloVersion version = YoloVersion.Segmentation)
+        {
+            if (version == YoloVersion.SEGMENTATION)
             {
                 return tensor.ProcessSegmentationItem(translator, minProbability, version);
             }
             throw new ArgumentException($"Unsupported Yolo version {version}");
-            
         }
+
 
         private static List<YoloSegmentationItem> ProcessSegmentationItem(this Tensor tensor, IYoloClassTranslator translator,
             float minProbability, YoloVersion version)

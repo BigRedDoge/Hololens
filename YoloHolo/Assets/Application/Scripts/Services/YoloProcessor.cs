@@ -43,6 +43,20 @@ namespace YoloHolo.Services
             return yoloItems;
         }
 
+        public async Task<List<YoloSegmentationItem>> RecognizeSegmentation(Texture2D texture) {
+            var inputTensor = new Tensor(texture, channels: profile.Channels);
+            await Task.Delay(32);
+            // Run the model on the input tensor
+            var outputTensor = await ForwardAsync(worker, inputTensor);
+            inputTensor.Dispose();
+
+            var yoloItems = outputTensor.ProcessSegmentationItem(profile.ClassTranslator, 
+                profile.MinimumProbability, profile.Version);
+
+            outputTensor.Dispose();
+            return yoloItems;
+        }
+
         // Nicked from https://github.com/Unity-Technologies/barracuda-release/issues/236#issue-1049168663
         public async Task<Tensor> ForwardAsync(IWorker modelWorker, Tensor inputs)
         {

@@ -7,7 +7,7 @@ import numpy as np
 
 
 def main():
-    model = YOLO('/Users/sean/Downloads/best.pt')
+    model = YOLO('/Users/sean/Downloads/model.onnx')
     if torch.cuda.is_available():
         model.to('cuda')
 
@@ -26,9 +26,11 @@ def main():
                 #print(mask)
                 single_mask = mask.data[0].cpu().numpy()
                 single_mask = cv2.resize(single_mask, (frame.shape[1], frame.shape[0]))
-                frame[single_mask > 0.5] = [0, 255, 0]
+                #frame[single_mask > 0.5] = [0, 255, 0]
                 # Draw mask in green on the frame
-                cv2.imshow('frame', frame)
+                _, thresh = cv2.threshold(single_mask, 0.5, 1, cv2.THRESH_BINARY)
+                contours, _ = cv2.findContours(thresh.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                cv2.drawContours(frame, contours, -1, (0, 255, 0), 3)
 
         cv2.imshow('frame', frame) 
 
