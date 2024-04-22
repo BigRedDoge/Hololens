@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000057] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000080] (unity_robotics_demo) JobQueued: {'identifier': 'unity_robotics_demo', 'dependencies': OrderedDict()}
+[0.000100] (unity_robotics_demo_msgs) JobQueued: {'identifier': 'unity_robotics_demo_msgs', 'dependencies': OrderedDict()}
+[0.000118] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.009881] (unity_robotics_demo) JobStarted: {'identifier': 'unity_robotics_demo'}
+[0.017260] (unity_robotics_demo_msgs) JobStarted: {'identifier': 'unity_robotics_demo_msgs'}
+[0.100510] (-) TimerEvent: {}
+[0.200991] (-) TimerEvent: {}
+[0.221205] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'cmake'}
+[0.222900] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/dev_ws/src/unity_robotics_demo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/dev_ws/install/unity_robotics_demo_msgs'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.299557] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.301052] (-) TimerEvent: {}
+[0.360000] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.363981] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.401203] (-) TimerEvent: {}
+[0.424169] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/dev_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/dev_ws/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/ros_tcp_endpoint', 'env': {'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'foxy', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/dev_ws/build/ros_tcp_endpoint', 'PYTHONPATH': '/home/dev_ws/build/ros_tcp_endpoint/prefix_override:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.430324] (unity_robotics_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/unity_robotics_demo', 'build', '--build-base', '/home/dev_ws/build/unity_robotics_demo/build', 'install', '--record', '/home/dev_ws/build/unity_robotics_demo/install.log', '--install-scripts', '$base/lib/unity_robotics_demo', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/unity_robotics_demo', 'env': {'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'foxy', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/dev_ws/build/unity_robotics_demo', 'PYTHONPATH': '/home/dev_ws/build/unity_robotics_demo/prefix_override:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.444513] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.445152] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501317] (-) TimerEvent: {}
+[0.515592] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.523710] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.523987] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.524793] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[0.525277] (ros_tcp_endpoint) StdoutLine: {'line': b'creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info\n'}
+[0.525405] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[0.525615] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[0.525681] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[0.525751] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[0.525786] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[0.526185] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.526529] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.527087] (unity_robotics_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.527410] (unity_robotics_demo) StdoutLine: {'line': b'creating ../../build/unity_robotics_demo/unity_robotics_demo.egg-info\n'}
+[0.527472] (unity_robotics_demo) StdoutLine: {'line': b'writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO\n'}
+[0.527538] (unity_robotics_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt\n'}
+[0.527603] (unity_robotics_demo) StdoutLine: {'line': b'writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt\n'}
+[0.527672] (unity_robotics_demo) StdoutLine: {'line': b'writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt\n'}
+[0.527705] (unity_robotics_demo) StdoutLine: {'line': b'writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt\n'}
+[0.528351] (unity_robotics_demo) StdoutLine: {'line': b"writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[0.546084] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.546546] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.546694] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[0.546794] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[0.547004] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/build/ros_tcp_endpoint/build\n'}
+[0.547093] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/build/ros_tcp_endpoint/build/lib\n'}
+[0.547134] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547198] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547258] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547324] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547383] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547495] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547557] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547635] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547695] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547770] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547898] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.547980] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.548013] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.548111] (unity_robotics_demo) StdoutLine: {'line': b"reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[0.548173] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[0.548538] (unity_robotics_demo) StdoutLine: {'line': b"writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[0.548609] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[0.548644] (unity_robotics_demo) StdoutLine: {'line': b'running build\n'}
+[0.548675] (unity_robotics_demo) StdoutLine: {'line': b'running build_py\n'}
+[0.548748] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/build/unity_robotics_demo/build\n'}
+[0.548781] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/build/unity_robotics_demo/build/lib\n'}
+[0.549045] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[0.549129] (unity_robotics_demo) StdoutLine: {'line': b'copying unity_robotics_demo/position_service.py -> /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[0.549166] (unity_robotics_demo) StdoutLine: {'line': b'copying unity_robotics_demo/color_publisher.py -> /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[0.549269] (unity_robotics_demo) StdoutLine: {'line': b'copying unity_robotics_demo/__init__.py -> /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[0.549309] (unity_robotics_demo) StdoutLine: {'line': b'running install\n'}
+[0.549347] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549393] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549490] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549530] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549572] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549650] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549687] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.549725] (unity_robotics_demo) StdoutLine: {'line': b'running install_lib\n'}
+[0.549790] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.550067] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.550113] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.550149] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.550212] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.550322] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.550360] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[0.550393] (unity_robotics_demo) StdoutLine: {'line': b'copying /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo/position_service.py -> /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[0.550428] (unity_robotics_demo) StdoutLine: {'line': b'copying /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo/color_publisher.py -> /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[0.550500] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc\n'}
+[0.550534] (unity_robotics_demo) StdoutLine: {'line': b'copying /home/dev_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo/__init__.py -> /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[0.550673] (unity_robotics_demo) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/position_service.py to position_service.cpython-38.pyc\n'}
+[0.551182] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc\n'}
+[0.551303] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc\n'}
+[0.551501] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc\n'}
+[0.551577] (unity_robotics_demo) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/color_publisher.py to color_publisher.cpython-38.pyc\n'}
+[0.551760] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc\n'}
+[0.551987] (unity_robotics_demo) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/__init__.py to __init__.cpython-38.pyc\n'}
+[0.552038] (unity_robotics_demo) StdoutLine: {'line': b'running install_data\n'}
+[0.552211] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/install/unity_robotics_demo/share/ament_index\n'}
+[0.552250] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/install/unity_robotics_demo/share/ament_index/resource_index\n'}
+[0.552331] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/dev_ws/install/unity_robotics_demo/share/ament_index/resource_index/packages\n'}
+[0.552369] (unity_robotics_demo) StdoutLine: {'line': b'copying resource/unity_robotics_demo -> /home/dev_ws/install/unity_robotics_demo/share/ament_index/resource_index/packages\n'}
+[0.552430] (unity_robotics_demo) StdoutLine: {'line': b'copying package.xml -> /home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo\n'}
+[0.552464] (unity_robotics_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.552681] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc\n'}
+[0.553394] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc\n'}
+[0.553466] (unity_robotics_demo) StdoutLine: {'line': b'Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info\n'}
+[0.553543] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc\n'}
+[0.553683] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc\n'}
+[0.554106] (unity_robotics_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[0.554180] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc\n'}
+[0.555279] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc\n'}
+[0.555475] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc\n'}
+[0.555596] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[0.555843] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/install/ros_tcp_endpoint/share/ament_index\n'}
+[0.555936] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/install/ros_tcp_endpoint/share/ament_index/resource_index\n'}
+[0.555973] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[0.556055] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /home/dev_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[0.556090] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[0.556185] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[0.556227] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[0.556287] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.557137] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[0.557634] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[0.565241] (unity_robotics_demo) StdoutLine: {'line': b'Installing color_publisher script to /home/dev_ws/install/unity_robotics_demo/lib/unity_robotics_demo\n'}
+[0.565442] (unity_robotics_demo) StdoutLine: {'line': b'Installing position_service script to /home/dev_ws/install/unity_robotics_demo/lib/unity_robotics_demo\n'}
+[0.565637] (unity_robotics_demo) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/unity_robotics_demo/install.log'\n"}
+[0.568424] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/dev_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[0.568644] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/ros_tcp_endpoint/install.log'\n"}
+[0.582036] (unity_robotics_demo) CommandEnded: {'returncode': 0}
+[0.591676] (unity_robotics_demo) JobEnded: {'identifier': 'unity_robotics_demo', 'rc': 0}
+[0.593798] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[0.598043] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[0.601401] (-) TimerEvent: {}
+[0.603806] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.604682] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.683978] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.692407] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.692795] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.694454] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.695446] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.701503] (-) TimerEvent: {}
+[0.706993] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.707081] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.774053] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779341] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.803112] (-) TimerEvent: {}
+[0.867095] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.879601] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.903788] (-) TimerEvent: {}
+[0.928514] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.946134] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.955177] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.003953] (-) TimerEvent: {}
+[1.007587] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.106962] (-) TimerEvent: {}
+[1.141082] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.207327] (-) TimerEvent: {}
+[1.295409] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.310420] (-) TimerEvent: {}
+[1.372192] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.386368] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.387420] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.401618] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.401712] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.401751] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.401783] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[1.410505] (-) TimerEvent: {}
+[1.412596] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.470057] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.484345] (unity_robotics_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.485794] (unity_robotics_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.486610] (unity_robotics_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.491387] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.510641] (-) TimerEvent: {}
+[1.542630] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.545405] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/dev_ws/build/unity_robotics_demo_msgs\n'}
+[1.550309] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 0}
+[1.550912] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'build'}
+[1.552481] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev_ws/build/unity_robotics_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.598423] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__cpp\n'}
+[1.599130] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[1.610764] (-) TimerEvent: {}
+[1.612500] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  3%] Generating C++ code for ROS interfaces\n'}
+[1.710943] (-) TimerEvent: {}
+[1.811978] (-) TimerEvent: {}
+[1.906950] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  3%] Built target unity_robotics_demo_msgs__cpp\n'}
+[1.912076] (-) TimerEvent: {}
+[1.940512] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  5%] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.940707] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  7%] Generating C++ introspection for ROS interfaces\n'}
+[1.941609] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  9%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.943422] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_generator_c\n'}
+[1.955962] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.c.o\n'}
+[2.002058] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_demo_msgs/msg/detail/unity_color__functions.c.o\n'}
+[2.012158] (-) TimerEvent: {}
+[2.044211] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_demo_msgs/srv/detail/position_service__functions.c.o\n'}
+[2.093315] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.c.o\n'}
+[2.112253] (-) TimerEvent: {}
+[2.143786] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 18%] Linking C shared library libunity_robotics_demo_msgs__rosidl_generator_c.so\n'}
+[2.149266] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_cpp\n'}
+[2.161432] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_demo_msgs/msg/pos_rot__type_support.cpp.o\n'}
+[2.181515] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 20%] Built target unity_robotics_demo_msgs__rosidl_generator_c\n'}
+[2.193531] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 21%] Generating C introspection for ROS interfaces\n'}
+[2.210285] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.212341] (-) TimerEvent: {}
+[2.222514] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.cpp.o\n'}
+[2.248518] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.261902] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_demo_msgs/msg/detail/dds_fastrtps/pos_rot__type_support.cpp.o\n'}
+[2.312444] (-) TimerEvent: {}
+[2.363548] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_demo_msgs/msg/unity_color__type_support.cpp.o\n'}
+[2.412588] (-) TimerEvent: {}
+[2.430239] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.cpp.o\n'}
+[2.480173] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[2.494523] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 30%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.c.o\n'}
+[2.512698] (-) TimerEvent: {}
+[2.537771] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 32%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.c.o\n'}
+[2.543680] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_demo_msgs/msg/detail/dds_fastrtps/unity_color__type_support.cpp.o\n'}
+[2.556287] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_demo_msgs/srv/position_service__type_support.cpp.o\n'}
+[2.573945] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_demo_msgs/srv/detail/position_service__type_support.c.o\n'}
+[2.610427] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.c.o\n'}
+[2.612795] (-) TimerEvent: {}
+[2.626198] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_demo_msgs/srv/detail/position_service__type_support.cpp.o\n'}
+[2.646150] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 43%] Linking C shared library libunity_robotics_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.677592] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 43%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[2.689040] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 45%] Generating C type support dispatch for ROS interfaces\n'}
+[2.712868] (-) TimerEvent: {}
+[2.741014] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_demo_msgs/srv/object_pose_service__type_support.cpp.o\n'}
+[2.807937] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_demo_msgs/srv/detail/dds_fastrtps/position_service__type_support.cpp.o\n'}
+[2.812957] (-) TimerEvent: {}
+[2.813583] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.cpp.o\n'}
+[2.889146] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_c\n'}
+[2.901132] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_demo_msgs/msg/pos_rot__type_support.cpp.o\n'}
+[2.913117] (-) TimerEvent: {}
+[2.930976] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 54%] Linking CXX shared library libunity_robotics_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[2.934337] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_demo_msgs/msg/unity_color__type_support.cpp.o\n'}
+[2.972366] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_demo_msgs/srv/position_service__type_support.cpp.o\n'}
+[2.977977] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 58%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp\n'}
+[2.989497] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_demo_msgs/srv/detail/dds_fastrtps/object_pose_service__type_support.cpp.o\n'}
+[3.011351] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_demo_msgs/srv/object_pose_service__type_support.cpp.o\n'}
+[3.011786] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 63%] Linking CXX shared library libunity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.013199] (-) TimerEvent: {}
+[3.063632] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 65%] Linking CXX shared library libunity_robotics_demo_msgs__rosidl_typesupport_c.so\n'}
+[3.090132] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.106613] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c\n'}
+[3.113315] (-) TimerEvent: {}
+[3.213455] (-) TimerEvent: {}
+[3.297788] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.313578] (-) TimerEvent: {}
+[3.363290] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 67%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.376710] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 69%] Generating C type support for eProsima Fast-RTPS\n'}
+[3.414360] (-) TimerEvent: {}
+[3.514960] (-) TimerEvent: {}
+[3.603143] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.615051] (-) TimerEvent: {}
+[3.616735] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/unity_color__type_support_c.cpp.o\n'}
+[3.616980] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/position_service__type_support_c.cpp.o\n'}
+[3.617154] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support_c.cpp.o\n'}
+[3.619388] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support_c.cpp.o\n'}
+[3.715167] (-) TimerEvent: {}
+[3.815352] (-) TimerEvent: {}
+[3.877285] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 78%] Linking CXX shared library libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.916282] (-) TimerEvent: {}
+[3.939186] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.951747] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs\n'}
+[3.964240] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target unity_robotics_demo_msgs\n'}
+[3.977264] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__py\n'}
+[3.990090] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 80%] Generating Python code for ROS interfaces\n'}
+[4.016356] (-) TimerEvent: {}
+[4.116487] (-) TimerEvent: {}
+[4.216649] (-) TimerEvent: {}
+[4.317904] (-) TimerEvent: {}
+[4.418085] (-) TimerEvent: {}
+[4.424263] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 80%] Built target unity_robotics_demo_msgs__py\n'}
+[4.447764] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__python\n'}
+[4.461070] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o\n'}
+[4.461183] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o\n'}
+[4.461448] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o\n'}
+[4.462235] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o\n'}
+[4.518187] (-) TimerEvent: {}
+[4.539390] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 89%] Linking C shared library rosidl_generator_py/unity_robotics_demo_msgs/libunity_robotics_demo_msgs__python.so\n'}
+[4.581258] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 89%] Built target unity_robotics_demo_msgs__python\n'}
+[4.601338] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[4.601638] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.602582] (unity_robotics_demo_msgs) StdoutLine: {'line': b'Scanning dependencies of target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.614734] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unity_robotics_demo_msgs/_unity_robotics_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[4.615113] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unity_robotics_demo_msgs/_unity_robotics_demo_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[4.616164] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unity_robotics_demo_msgs/_unity_robotics_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[4.618256] (-) TimerEvent: {}
+[4.688721] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.689040] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.691410] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[100%] Linking CXX shared library rosidl_generator_py/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.718383] (-) TimerEvent: {}
+[4.725935] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[4.726054] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.749006] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.762417] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 0}
+[4.818509] (-) TimerEvent: {}
+[4.887020] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'install'}
+[4.898845] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev_ws/build/unity_robotics_demo_msgs'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.908594] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.908897] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/unity_robotics_demo_msgs\n'}
+[4.909080] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[4.909128] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[4.909261] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/position_service.h\n'}
+[4.909340] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[4.909473] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__struct.h\n'}
+[4.909609] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__functions.c\n'}
+[4.909741] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__functions.h\n'}
+[4.909800] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.h\n'}
+[4.909855] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.h\n'}
+[4.909995] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.h\n'}
+[4.910050] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.h\n'}
+[4.910181] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.c\n'}
+[4.910340] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/object_pose_service.h\n'}
+[4.910426] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[4.910501] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_rot.h\n'}
+[4.910609] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[4.910757] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.h\n'}
+[4.910910] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__functions.h\n'}
+[4.910959] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__struct.h\n'}
+[4.911101] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.h\n'}
+[4.911256] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__functions.c\n'}
+[4.911308] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.h\n'}
+[4.911432] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.h\n'}
+[4.911572] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.c\n'}
+[4.911773] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.911844] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/unity_color.h\n'}
+[4.912001] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.sh\n'}
+[4.912280] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.dsv\n'}
+[4.912344] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_generator_c.so\n'}
+[4.912764] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[4.912902] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[4.912987] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[4.913173] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[4.913310] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_c.h\n'}
+[4.913386] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_c.h\n'}
+[4.913458] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[4.913602] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[4.913739] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_c.h\n'}
+[4.913787] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_c.h\n'}
+[4.913884] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.913923] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.914076] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.914118] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[4.914241] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[4.914372] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[4.914497] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.914640] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/dds_fastrtps\n'}
+[4.914695] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.914728] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[4.914942] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[4.914983] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/dds_fastrtps\n'}
+[4.915013] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.915044] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.915111] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.915238] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.915542] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.915614] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[4.915748] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[4.915792] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[4.915997] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.c\n'}
+[4.916093] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_c.h\n'}
+[4.916128] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_c.h\n'}
+[4.916303] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.c\n'}
+[4.916368] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[4.916508] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.916570] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[4.916661] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_c.h\n'}
+[4.916725] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_c.h\n'}
+[4.916866] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.c\n'}
+[4.916905] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.c\n'}
+[4.916935] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.917130] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.917248] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_c.so\n'}
+[4.917611] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.917657] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[4.917689] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[4.917729] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/object_pose_service.hpp\n'}
+[4.917922] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[4.917965] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.hpp\n'}
+[4.918070] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__traits.hpp\n'}
+[4.918124] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__struct.hpp\n'}
+[4.918313] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__builder.hpp\n'}
+[4.918356] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__builder.hpp\n'}
+[4.918397] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.hpp\n'}
+[4.918497] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__traits.hpp\n'}
+[4.918534] (-) TimerEvent: {}
+[4.918544] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.hpp\n'}
+[4.918657] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/position_service.hpp\n'}
+[4.918914] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[4.919019] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.919222] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/unity_color.hpp\n'}
+[4.919289] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[4.919333] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.hpp\n'}
+[4.919388] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.hpp\n'}
+[4.919518] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.hpp\n'}
+[4.919590] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__traits.hpp\n'}
+[4.919731] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__traits.hpp\n'}
+[4.919779] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__builder.hpp\n'}
+[4.919925] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__builder.hpp\n'}
+[4.919967] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__struct.hpp\n'}
+[4.919999] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_rot.hpp\n'}
+[4.920119] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[4.920168] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[4.920198] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[4.920228] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.cpp\n'}
+[4.920353] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.920396] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.cpp\n'}
+[4.920555] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.920608] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[4.920794] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[4.920960] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.cpp\n'}
+[4.921001] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.cpp\n'}
+[4.921039] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.921078] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.921171] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.921517] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.921628] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[4.922026] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.922069] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.sh\n'}
+[4.922176] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.dsv\n'}
+[4.922366] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/__init__.py\n'}
+[4.939964] (unity_robotics_demo_msgs) StdoutLine: {'line': b"Compiling '/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/__init__.py'...\n"}
+[4.942323] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg\n'}
+[4.942400] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_unity_color.py\n'}
+[4.942715] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_unity_color_s.c\n'}
+[4.942863] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_rot.py\n'}
+[4.942923] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_rot_s.c\n'}
+[4.943216] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/__init__.py\n'}
+[4.943391] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv\n'}
+[4.943426] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_object_pose_service.py\n'}
+[4.943457] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_position_service.py\n'}
+[4.943510] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_position_service_s.c\n'}
+[4.943541] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_object_pose_service_s.c\n'}
+[4.943776] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/__init__.py\n'}
+[4.943880] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.944442] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.944636] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.945195] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.945383] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.946017] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.946066] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__python.so\n'}
+[4.946344] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__python.so" to ""\n'}
+[4.946503] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.idl\n'}
+[4.946700] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.idl\n'}
+[4.946753] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.idl\n'}
+[4.946963] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.idl\n'}
+[4.947146] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.msg\n'}
+[4.947198] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.msg\n'}
+[4.947324] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.srv\n'}
+[4.947367] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Request.msg\n'}
+[4.947503] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Response.msg\n'}
+[4.947631] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.srv\n'}
+[4.947790] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Request.msg\n'}
+[4.947988] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Response.msg\n'}
+[4.948200] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/package_run_dependencies/unity_robotics_demo_msgs\n'}
+[4.948364] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/parent_prefix_path/unity_robotics_demo_msgs\n'}
+[4.948557] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.sh\n'}
+[4.948699] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[4.948910] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.sh\n'}
+[4.949199] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.dsv\n'}
+[4.949274] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.bash\n'}
+[4.949345] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.sh\n'}
+[4.949537] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.zsh\n'}
+[4.949577] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.dsv\n'}
+[4.949612] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv\n'}
+[4.949843] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/packages/unity_robotics_demo_msgs\n'}
+[4.950030] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[4.950195] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.950366] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.950511] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.950665] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.950845] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.950979] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.951217] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.951349] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.951536] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.951680] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.951806] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.951982] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.952124] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.952299] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.952419] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.952532] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.952672] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.952787] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig.cmake\n'}
+[4.952934] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig-version.cmake\n'}
+[4.953049] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.xml\n'}
+[4.956761] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 0}
+[5.018694] (-) TimerEvent: {}
+[5.096873] (unity_robotics_demo_msgs) JobEnded: {'identifier': 'unity_robotics_demo_msgs', 'rc': 0}
+[5.097926] (-) EventReactorShutdown: {}

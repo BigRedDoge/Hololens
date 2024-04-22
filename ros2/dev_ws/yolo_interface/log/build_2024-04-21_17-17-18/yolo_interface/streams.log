@@ -1,0 +1,237 @@
+[0.029s] Invoking command in '/home/yolo_interface/build/yolo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /home/yolo_interface -DCMAKE_INSTALL_PREFIX=/home/yolo_interface/install/yolo_interface
+[0.053s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.197s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.217s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.362s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.385s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.465s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.625s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.745s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.748s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.772s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.772s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.772s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.772s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[0.788s] -- Found PythonExtra: .so  
+[0.832s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.862s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.873s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.874s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yolo_interface/build/yolo_interface/rosidl_generator_c>;/home/yolo_interface/build/yolo_interface/rosidl_generator_c;/home/yolo_interface/build/yolo_interface/rosidl_generator_cpp;/home/yolo_interface/build/yolo_interface/rosidl_typesupport_fastrtps_c;/home/yolo_interface/build/yolo_interface/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/yolo_interface/build/yolo_interface/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/yolo_interface/build/yolo_interface/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/yolo_interface/build/yolo_interface/rosidl_generator_cpp>;/home/yolo_interface/build/yolo_interface/rosidl_generator_py
+[0.875s] -- Configured cppcheck exclude dirs and/or files: 
+[0.885s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.885s] -- Configured cpplint exclude dirs and/or files: 
+[0.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.889s] -- Added test 'lint_cmake' to check CMake code style
+[0.891s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.901s] -- Added test 'uncrustify' to check C / C++ code style
+[0.902s] -- Configured uncrustify additional arguments: 
+[0.904s] -- Added test 'xmllint' to check XML markup files
+[0.912s] -- Configuring done
+[0.956s] -- Generating done
+[0.961s] -- Build files have been written to: /home/yolo_interface/build/yolo_interface
+[0.967s] Invoked command in '/home/yolo_interface/build/yolo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /home/yolo_interface -DCMAKE_INSTALL_PREFIX=/home/yolo_interface/install/yolo_interface
+[0.971s] Invoking command in '/home/yolo_interface/build/yolo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/yolo_interface/build/yolo_interface -- -j4 -l4
+[1.039s] [35m[1mScanning dependencies of target yolo_interface__cpp[0m
+[1.040s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.060s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.463s] [35m[1mScanning dependencies of target yolo_interface__rosidl_generator_c[0m
+[1.477s] [  5%] Built target yolo_interface__cpp
+[1.491s] [  7%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_generator_c.dir/rosidl_generator_c/yolo_interface/msg/detail/image_msg__functions.c.o[0m
+[1.491s] [ 10%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_generator_c.dir/rosidl_generator_c/yolo_interface/msg/detail/yolo__functions.c.o[0m
+[1.497s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.497s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.594s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.597s] [ 20%] [32m[1mLinking C shared library libyolo_interface__rosidl_generator_c.so[0m
+[1.655s] [ 20%] Built target yolo_interface__rosidl_generator_c
+[1.675s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.938s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_introspection_cpp[0m
+[1.942s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.963s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_interface/msg/detail/image_msg__type_support.cpp.o[0m
+[1.970s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_interface/msg/detail/dds_fastrtps/image_msg__type_support.cpp.o[0m
+[1.987s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_cpp[0m
+[2.009s] [ 30%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_interface/msg/image_msg__type_support.cpp.o[0m
+[2.122s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_introspection_c[0m
+[2.148s] [ 33%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_interface/msg/detail/image_msg__type_support.c.o[0m
+[2.262s] [ 35%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_interface/msg/detail/yolo__type_support.c.o[0m
+[2.350s] [ 38%] [32m[1mLinking C shared library libyolo_interface__rosidl_typesupport_introspection_c.so[0m
+[2.399s] [ 38%] Built target yolo_interface__rosidl_typesupport_introspection_c
+[2.414s] [ 41%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_interface/msg/yolo__type_support.cpp.o[0m
+[2.553s] [ 43%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_interface/msg/detail/dds_fastrtps/yolo__type_support.cpp.o[0m
+[2.602s] [ 46%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_interface/msg/detail/yolo__type_support.cpp.o[0m
+[2.760s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.787s] [ 51%] [32m[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_cpp.so[0m
+[2.866s] [ 51%] Built target yolo_interface__rosidl_typesupport_cpp
+[2.925s] [ 53%] [32m[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.015s] [ 53%] Built target yolo_interface__rosidl_typesupport_introspection_cpp
+[3.022s] [ 56%] [32m[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.108s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_c[0m
+[3.133s] [ 58%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_interface/msg/image_msg__type_support.cpp.o[0m
+[3.133s] [ 58%] Built target yolo_interface__rosidl_typesupport_fastrtps_cpp
+[3.138s] [ 61%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_interface/msg/yolo__type_support.cpp.o[0m
+[3.164s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.201s] [ 66%] [32m[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_c.so[0m
+[3.266s] [ 66%] Built target yolo_interface__rosidl_typesupport_c
+[3.472s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_fastrtps_c[0m
+[3.499s] [ 69%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_interface/msg/detail/image_msg__type_support_c.cpp.o[0m
+[3.500s] [ 71%] [32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_interface/msg/detail/yolo__type_support_c.cpp.o[0m
+[3.839s] [ 74%] [32m[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.931s] [ 74%] Built target yolo_interface__rosidl_typesupport_fastrtps_c
+[3.950s] [35m[1mScanning dependencies of target yolo_interface[0m
+[3.972s] [ 74%] Built target yolo_interface
+[3.991s] [35m[1mScanning dependencies of target yolo_interface__py[0m
+[4.012s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.555s] [ 76%] Built target yolo_interface__py
+[4.574s] [35m[1mScanning dependencies of target yolo_interface__python[0m
+[4.613s] [ 79%] [32mBuilding C object CMakeFiles/yolo_interface__python.dir/rosidl_generator_py/yolo_interface/msg/_image_msg_s.c.o[0m
+[4.614s] [ 82%] [32mBuilding C object CMakeFiles/yolo_interface__python.dir/rosidl_generator_py/yolo_interface/msg/_yolo_s.c.o[0m
+[4.739s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/yolo_interface/libyolo_interface__python.so[0m
+[4.809s] [ 84%] Built target yolo_interface__python
+[4.828s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.828s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_introspection_c__pyext[0m
+[4.829s] [35m[1mScanning dependencies of target yolo_interface__rosidl_typesupport_c__pyext[0m
+[4.861s] [ 87%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_interface/_yolo_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.861s] [ 89%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_interface/_yolo_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.861s] [ 92%] [32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_interface/_yolo_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.975s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/yolo_interface/yolo_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[4.975s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/yolo_interface/yolo_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[4.978s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/yolo_interface/yolo_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[5.026s] [100%] Built target yolo_interface__rosidl_typesupport_introspection_c__pyext
+[5.026s] [100%] Built target yolo_interface__rosidl_typesupport_c__pyext
+[5.067s] [100%] Built target yolo_interface__rosidl_typesupport_fastrtps_c__pyext
+[5.090s] Invoked command in '/home/yolo_interface/build/yolo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/yolo_interface/build/yolo_interface -- -j4 -l4
+[5.252s] Invoking command in '/home/yolo_interface/build/yolo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --install /home/yolo_interface/build/yolo_interface
+[5.265s] -- Install configuration: ""
+[5.266s] -- Installing: /home/yolo_interface/install/yolo_interface/share/ament_index/resource_index/rosidl_interfaces/yolo_interface
+[5.266s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface
+[5.267s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg
+[5.267s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail
+[5.267s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__functions.c
+[5.267s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__struct.h
+[5.268s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.h
+[5.268s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.h
+[5.268s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__functions.c
+[5.268s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__functions.h
+[5.268s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__struct.h
+[5.268s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__functions.h
+[5.269s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/image_msg.h
+[5.269s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/rosidl_generator_c__visibility_control.h
+[5.269s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/yolo.h
+[5.269s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/library_path.sh
+[5.269s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/library_path.dsv
+[5.270s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_generator_c.so
+[5.270s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_generator_c.so" to ""
+[5.270s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface
+[5.271s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg
+[5.271s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail
+[5.271s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_fastrtps_c.h
+[5.271s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+[5.271s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.272s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_c.so
+[5.273s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.273s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface
+[5.273s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg
+[5.273s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail
+[5.273s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/dds_fastrtps
+[5.274s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_fastrtps_cpp.hpp
+[5.274s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.274s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.274s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.274s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.274s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface
+[5.274s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg
+[5.274s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.274s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail
+[5.274s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.c
+[5.275s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_introspection_c.h
+[5.275s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.c
+[5.275s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+[5.275s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_c.so
+[5.276s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.276s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_c.so
+[5.277s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_c.so" to ""
+[5.278s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface
+[5.278s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg
+[5.278s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.278s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail
+[5.278s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__builder.hpp
+[5.278s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__traits.hpp
+[5.278s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__traits.hpp
+[5.278s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__builder.hpp
+[5.279s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__struct.hpp
+[5.279s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__struct.hpp
+[5.279s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.hpp
+[5.279s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.hpp
+[5.279s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/image_msg.hpp
+[5.279s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/yolo.hpp
+[5.280s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface
+[5.280s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg
+[5.280s] -- Up-to-date: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail
+[5.280s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.280s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.cpp
+[5.280s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_introspection_cpp.hpp
+[5.280s] -- Installing: /home/yolo_interface/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.cpp
+[5.280s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_cpp.so
+[5.281s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.281s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_cpp.so
+[5.281s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_cpp.so" to ""
+[5.282s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/pythonpath.sh
+[5.282s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/pythonpath.dsv
+[5.282s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/__init__.py
+[5.308s] Compiling '/home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/__init__.py'...
+[5.313s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg
+[5.313s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_yolo_s.c
+[5.313s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_image_msg.py
+[5.314s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_image_msg_s.c
+[5.314s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/__init__.py
+[5.314s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_yolo.py
+[5.315s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.315s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[5.316s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.316s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[5.317s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.317s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[5.318s] -- Installing: /home/yolo_interface/install/yolo_interface/lib/libyolo_interface__python.so
+[5.319s] -- Set runtime path of "/home/yolo_interface/install/yolo_interface/lib/libyolo_interface__python.so" to ""
+[5.319s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/msg/ImageMsg.idl
+[5.319s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/msg/Yolo.idl
+[5.319s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/msg/ImageMsg.msg
+[5.319s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/msg/Yolo.msg
+[5.319s] -- Installing: /home/yolo_interface/install/yolo_interface/share/ament_index/resource_index/package_run_dependencies/yolo_interface
+[5.320s] -- Installing: /home/yolo_interface/install/yolo_interface/share/ament_index/resource_index/parent_prefix_path/yolo_interface
+[5.320s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/ament_prefix_path.sh
+[5.320s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/ament_prefix_path.dsv
+[5.321s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/path.sh
+[5.321s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/environment/path.dsv
+[5.321s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/local_setup.bash
+[5.321s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/local_setup.sh
+[5.322s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/local_setup.zsh
+[5.322s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/local_setup.dsv
+[5.322s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/package.dsv
+[5.322s] -- Installing: /home/yolo_interface/install/yolo_interface/share/ament_index/resource_index/packages/yolo_interface
+[5.323s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_generator_cExport.cmake
+[5.323s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_generator_cExport-noconfig.cmake
+[5.323s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.324s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.324s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cExport.cmake
+[5.324s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.325s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_generator_cppExport.cmake
+[5.325s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.325s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.326s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cppExport.cmake
+[5.326s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.327s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/rosidl_cmake-extras.cmake
+[5.327s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.327s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.327s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.328s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.328s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.328s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.329s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interfaceConfig.cmake
+[5.329s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/cmake/yolo_interfaceConfig-version.cmake
+[5.329s] -- Installing: /home/yolo_interface/install/yolo_interface/share/yolo_interface/package.xml
+[5.333s] Invoked command in '/home/yolo_interface/build/yolo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --install /home/yolo_interface/build/yolo_interface

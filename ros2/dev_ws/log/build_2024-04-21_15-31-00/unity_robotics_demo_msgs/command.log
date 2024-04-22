@@ -1,0 +1,6 @@
+Invoking command in '/home/dev_ws/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev_ws/src/unity_robotics_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/dev_ws/install/unity_robotics_demo_msgs
+Invoked command in '/home/dev_ws/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev_ws/src/unity_robotics_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/dev_ws/install/unity_robotics_demo_msgs
+Invoking command in '/home/dev_ws/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dev_ws/build/unity_robotics_demo_msgs -- -j4 -l4
+Invoked command in '/home/dev_ws/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dev_ws/build/unity_robotics_demo_msgs -- -j4 -l4
+Invoking command in '/home/dev_ws/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dev_ws/build/unity_robotics_demo_msgs
+Invoked command in '/home/dev_ws/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dev_ws/build/unity_robotics_demo_msgs

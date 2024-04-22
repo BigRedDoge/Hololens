@@ -1,0 +1,69 @@
+[0.427s] Invoking command in '/home/dev_ws/src/ros_tcp_endpoint': PYTHONPATH=/home/dev_ws/build/ros_tcp_endpoint/prefix_override:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dev_ws/build/ros_tcp_endpoint/build install --record /home/dev_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[0.525s] running egg_info
+[0.525s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[0.525s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.526s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.526s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.526s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.526s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.526s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.546s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.546s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.547s] running build
+[0.547s] running build_py
+[0.547s] creating /home/dev_ws/build/ros_tcp_endpoint/build
+[0.547s] creating /home/dev_ws/build/ros_tcp_endpoint/build/lib
+[0.547s] creating /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.547s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.547s] copying ros_tcp_endpoint/exceptions.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.547s] copying ros_tcp_endpoint/thread_pauser.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.547s] copying ros_tcp_endpoint/subscriber.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.547s] copying ros_tcp_endpoint/tcp_sender.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.547s] copying ros_tcp_endpoint/client.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] copying ros_tcp_endpoint/unity_service.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] copying ros_tcp_endpoint/communication.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] copying ros_tcp_endpoint/service.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] copying ros_tcp_endpoint/server.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] copying ros_tcp_endpoint/publisher.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] copying ros_tcp_endpoint/__init__.py -> /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.548s] running install
+[0.549s] running install_lib
+[0.549s] creating /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.549s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.549s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.549s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.549s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] copying /home/dev_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.550s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc
+[0.551s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc
+[0.551s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc
+[0.551s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc
+[0.552s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc
+[0.553s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc
+[0.553s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc
+[0.553s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc
+[0.554s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc
+[0.554s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc
+[0.555s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc
+[0.555s] byte-compiling /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc
+[0.555s] running install_data
+[0.556s] creating /home/dev_ws/install/ros_tcp_endpoint/share/ament_index
+[0.556s] creating /home/dev_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[0.556s] creating /home/dev_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[0.556s] copying resource/ros_tcp_endpoint -> /home/dev_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[0.556s] copying package.xml -> /home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[0.556s] creating /home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[0.556s] copying launch/endpoint.py -> /home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[0.556s] running install_egg_info
+[0.557s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[0.558s] running install_scripts
+[0.568s] Installing default_server_endpoint script to /home/dev_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[0.569s] writing list of installed files to '/home/dev_ws/build/ros_tcp_endpoint/install.log'
+[0.594s] Invoked command in '/home/dev_ws/src/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/dev_ws/build/ros_tcp_endpoint/prefix_override:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dev_ws/build/ros_tcp_endpoint/build install --record /home/dev_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed

@@ -1,0 +1,17 @@
+[0.405s] Invoking command in '/home/dev_ws/holo_yolo': PYTHONPATH=/home/dev_ws/holo_yolo/build/holo_yolo/prefix_override:/home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/holo_yolo build --build-base /home/dev_ws/holo_yolo/build/holo_yolo/build install --record /home/dev_ws/holo_yolo/build/holo_yolo/install.log --install-scripts $base/lib/holo_yolo --single-version-externally-managed
+[0.510s] running egg_info
+[0.510s] writing build/holo_yolo/holo_yolo.egg-info/PKG-INFO
+[0.510s] writing dependency_links to build/holo_yolo/holo_yolo.egg-info/dependency_links.txt
+[0.510s] writing entry points to build/holo_yolo/holo_yolo.egg-info/entry_points.txt
+[0.511s] writing requirements to build/holo_yolo/holo_yolo.egg-info/requires.txt
+[0.511s] writing top-level names to build/holo_yolo/holo_yolo.egg-info/top_level.txt
+[0.531s] reading manifest file 'build/holo_yolo/holo_yolo.egg-info/SOURCES.txt'
+[0.532s] writing manifest file 'build/holo_yolo/holo_yolo.egg-info/SOURCES.txt'
+[0.532s] running build
+[0.532s] running build_py
+[0.532s] running install
+[0.533s] running install_lib
+[0.534s] running install_data
+[0.534s] creating /home/dev_ws/holo_yolo/install/holo_yolo/holo_yolo/holo_yolo
+[0.535s] error: can't copy 'best.pt': doesn't exist or not a regular file
+[0.550s] Invoked command in '/home/dev_ws/holo_yolo' returned '1': PYTHONPATH=/home/dev_ws/holo_yolo/build/holo_yolo/prefix_override:/home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/holo_yolo build --build-base /home/dev_ws/holo_yolo/build/holo_yolo/build install --record /home/dev_ws/holo_yolo/build/holo_yolo/install.log --install-scripts $base/lib/holo_yolo --single-version-externally-managed
