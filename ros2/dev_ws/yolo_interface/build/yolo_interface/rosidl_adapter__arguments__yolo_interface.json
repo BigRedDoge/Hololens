@@ -1,0 +1,7 @@
+{
+  "package_name": "yolo_interface",
+  "non_idl_tuples": [
+    "/home/yolo_interface:msg/ImageMsg.msg",
+    "/home/yolo_interface:msg/Yolo.msg"
+  ]
+}

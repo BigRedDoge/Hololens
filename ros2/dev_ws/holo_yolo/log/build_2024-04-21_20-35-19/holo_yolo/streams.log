@@ -1,0 +1,24 @@
+[0.504s] Invoking command in '/home/dev_ws/holo_yolo': PYTHONPATH=/home/dev_ws/holo_yolo/build/holo_yolo/prefix_override:/home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/holo_yolo build --build-base /home/dev_ws/holo_yolo/build/holo_yolo/build install --record /home/dev_ws/holo_yolo/build/holo_yolo/install.log --install-scripts $base/lib/holo_yolo --single-version-externally-managed
+[0.658s] running egg_info
+[0.658s] writing build/holo_yolo/holo_yolo.egg-info/PKG-INFO
+[0.659s] writing dependency_links to build/holo_yolo/holo_yolo.egg-info/dependency_links.txt
+[0.659s] writing entry points to build/holo_yolo/holo_yolo.egg-info/entry_points.txt
+[0.659s] writing requirements to build/holo_yolo/holo_yolo.egg-info/requires.txt
+[0.659s] writing top-level names to build/holo_yolo/holo_yolo.egg-info/top_level.txt
+[0.692s] reading manifest file 'build/holo_yolo/holo_yolo.egg-info/SOURCES.txt'
+[0.692s] writing manifest file 'build/holo_yolo/holo_yolo.egg-info/SOURCES.txt'
+[0.693s] running build
+[0.693s] running build_py
+[0.693s] copying holo_yolo/holoyolo.py -> /home/dev_ws/holo_yolo/build/holo_yolo/build/lib/holo_yolo
+[0.694s] running install
+[0.694s] running install_lib
+[0.696s] copying /home/dev_ws/holo_yolo/build/holo_yolo/build/lib/holo_yolo/holoyolo.py -> /home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages/holo_yolo
+[0.697s] byte-compiling /home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages/holo_yolo/holoyolo.py to holoyolo.cpython-38.pyc
+[0.698s] running install_data
+[0.699s] running install_egg_info
+[0.700s] removing '/home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages/holo_yolo-0.0.0-py3.8.egg-info' (and everything under it)
+[0.701s] Copying build/holo_yolo/holo_yolo.egg-info to /home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages/holo_yolo-0.0.0-py3.8.egg-info
+[0.702s] running install_scripts
+[0.718s] Installing holoyolo script to /home/dev_ws/holo_yolo/install/holo_yolo/lib/holo_yolo
+[0.718s] writing list of installed files to '/home/dev_ws/holo_yolo/build/holo_yolo/install.log'
+[0.739s] Invoked command in '/home/dev_ws/holo_yolo' returned '0': PYTHONPATH=/home/dev_ws/holo_yolo/build/holo_yolo/prefix_override:/home/dev_ws/holo_yolo/install/holo_yolo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/holo_yolo build --build-base /home/dev_ws/holo_yolo/build/holo_yolo/build install --record /home/dev_ws/holo_yolo/build/holo_yolo/install.log --install-scripts $base/lib/holo_yolo --single-version-externally-managed

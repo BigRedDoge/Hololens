@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.000291] (-) JobUnselected: {'identifier': 'unity_robotics_demo'}
+[0.000303] (-) JobUnselected: {'identifier': 'unity_robotics_demo_msgs'}
+[0.000354] (-) JobUnselected: {'identifier': 'yolo_interface'}
+[0.000368] (holo_yolo) JobQueued: {'identifier': 'holo_yolo', 'dependencies': OrderedDict([('yolo_interface', '/home/dev_ws/install/yolo_interface')])}
+[0.000383] (holo_yolo) JobStarted: {'identifier': 'holo_yolo'}
+[0.025812] (holo_yolo) JobEnded: {'identifier': 'holo_yolo', 'rc': 1}
+[0.036669] (-) EventReactorShutdown: {}

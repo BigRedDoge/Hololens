@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.003500] (-) JobUnselected: {'identifier': 'holo_yolo'}
+[0.003649] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.003682] (-) JobUnselected: {'identifier': 'unity_robotics_demo'}
+[0.003695] (-) JobUnselected: {'identifier': 'unity_robotics_demo_msgs'}
+[0.003771] (yolo_interface) JobQueued: {'identifier': 'yolo_interface', 'dependencies': OrderedDict()}
+[0.003805] (yolo_interface) JobStarted: {'identifier': 'yolo_interface'}
+[0.019363] (yolo_interface) JobProgress: {'identifier': 'yolo_interface', 'progress': 'cmake'}
+[0.019879] (yolo_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dev_ws/yolo_interface', '-DCMAKE_INSTALL_PREFIX=/home/dev_ws/install/yolo_interface'], 'cwd': '/home/dev_ws/build/yolo_interface', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,45,0'), ('HOSTNAME', '3547656e0061'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/yolo_interface'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/dev_ws/build/yolo_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[0.099411] (-) TimerEvent: {}
+[0.200712] (-) TimerEvent: {}
+[0.304133] (-) TimerEvent: {}
+[0.309032] (yolo_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.404345] (-) TimerEvent: {}
+[0.458371] (yolo_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.466368] (yolo_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.504525] (-) TimerEvent: {}
+[0.605041] (-) TimerEvent: {}
+[0.615201] (yolo_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.616471] (yolo_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705233] (-) TimerEvent: {}
+[0.732232] (yolo_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.754407] (yolo_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.755041] (yolo_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.760269] (yolo_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.805518] (-) TimerEvent: {}
+[0.898088] (yolo_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.899331] (yolo_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.905718] (-) TimerEvent: {}
+[1.006147] (-) TimerEvent: {}
+[1.048333] (yolo_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.059714] (yolo_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.060444] (yolo_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.071118] (yolo_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.097025] (yolo_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.097163] (yolo_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.106902] (-) TimerEvent: {}
+[1.207918] (-) TimerEvent: {}
+[1.215828] (yolo_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.220433] (yolo_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.228963] (yolo_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.308177] (-) TimerEvent: {}
+[1.357640] (yolo_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.379430] (yolo_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.408314] (-) TimerEvent: {}
+[1.455677] (yolo_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.496849] (yolo_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.508454] (-) TimerEvent: {}
+[1.602133] (yolo_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.608636] (-) TimerEvent: {}
+[1.682258] (yolo_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.690273] (yolo_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.707126] (yolo_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.708771] (-) TimerEvent: {}
+[1.709702] (yolo_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.727369] (yolo_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.727699] (yolo_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.727767] (yolo_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.727859] (yolo_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[1.741452] (yolo_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.782684] (yolo_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.807388] (yolo_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.808851] (-) TimerEvent: {}
+[1.844097] (yolo_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.844850] (yolo_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.844937] (yolo_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.876822] (yolo_interface) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.877072] (yolo_interface) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.883829] (yolo_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.894196] (yolo_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.901186] (yolo_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.908976] (-) TimerEvent: {}
+[1.935599] (yolo_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.935858] (yolo_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.940584] (yolo_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.946471] (yolo_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.981644] (yolo_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.984878] (yolo_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dev_ws/build/yolo_interface\n'}
+[1.991487] (yolo_interface) CommandEnded: {'returncode': 0}
+[1.992489] (yolo_interface) JobProgress: {'identifier': 'yolo_interface', 'progress': 'build'}
+[1.994883] (yolo_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev_ws/build/yolo_interface', '--', '-j4', '-l4'], 'cwd': '/home/dev_ws/build/yolo_interface', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,45,0'), ('HOSTNAME', '3547656e0061'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/yolo_interface'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/dev_ws/build/yolo_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[2.009266] (-) TimerEvent: {}
+[2.051117] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__cpp\x1b[0m\n'}
+[2.052840] (yolo_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.068717] (yolo_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.109437] (-) TimerEvent: {}
+[2.214980] (-) TimerEvent: {}
+[2.315741] (-) TimerEvent: {}
+[2.388330] (yolo_interface) StdoutLine: {'line': b'[  5%] Built target yolo_interface__cpp\n'}
+[2.413378] (yolo_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.414316] (yolo_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.415095] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_generator_c\x1b[0m\n'}
+[2.415898] (-) TimerEvent: {}
+[2.417973] (yolo_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.437851] (yolo_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_generator_c.dir/rosidl_generator_c/yolo_interface/msg/detail/image_msg__functions.c.o\x1b[0m\n'}
+[2.516013] (-) TimerEvent: {}
+[2.525933] (yolo_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_generator_c.dir/rosidl_generator_c/yolo_interface/msg/detail/yolo__functions.c.o\x1b[0m\n'}
+[2.588284] (yolo_interface) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libyolo_interface__rosidl_generator_c.so\x1b[0m\n'}
+[2.616153] (-) TimerEvent: {}
+[2.641385] (yolo_interface) StdoutLine: {'line': b'[ 20%] Built target yolo_interface__rosidl_generator_c\n'}
+[2.659163] (yolo_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.716249] (-) TimerEvent: {}
+[2.742041] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.761716] (yolo_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_interface/msg/image_msg__type_support.cpp.o\x1b[0m\n'}
+[2.785203] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.792082] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.806912] (yolo_interface) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_interface/msg/detail/image_msg__type_support.cpp.o\x1b[0m\n'}
+[2.816358] (-) TimerEvent: {}
+[2.818650] (yolo_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_interface/msg/detail/dds_fastrtps/image_msg__type_support.cpp.o\x1b[0m\n'}
+[2.916497] (-) TimerEvent: {}
+[3.016984] (-) TimerEvent: {}
+[3.054198] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.075481] (yolo_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_interface/msg/detail/image_msg__type_support.c.o\x1b[0m\n'}
+[3.117157] (-) TimerEvent: {}
+[3.147906] (yolo_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_interface/msg/detail/yolo__type_support.c.o\x1b[0m\n'}
+[3.190746] (yolo_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_interface/msg/yolo__type_support.cpp.o\x1b[0m\n'}
+[3.215720] (yolo_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libyolo_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.217215] (-) TimerEvent: {}
+[3.271470] (yolo_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_interface/msg/detail/yolo__type_support.cpp.o\x1b[0m\n'}
+[3.272109] (yolo_interface) StdoutLine: {'line': b'[ 43%] Built target yolo_interface__rosidl_typesupport_introspection_c\n'}
+[3.292824] (yolo_interface) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.317397] (-) TimerEvent: {}
+[3.419104] (-) TimerEvent: {}
+[3.442620] (yolo_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_interface/msg/detail/dds_fastrtps/yolo__type_support.cpp.o\x1b[0m\n'}
+[3.519216] (-) TimerEvent: {}
+[3.550421] (yolo_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.605818] (yolo_interface) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.607521] (yolo_interface) StdoutLine: {'line': b'[ 53%] Built target yolo_interface__rosidl_typesupport_cpp\n'}
+[3.619395] (-) TimerEvent: {}
+[3.640123] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_c\x1b[0m\n'}
+[3.658513] (yolo_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_interface/msg/image_msg__type_support.cpp.o\x1b[0m\n'}
+[3.659106] (yolo_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_interface/msg/yolo__type_support.cpp.o\x1b[0m\n'}
+[3.701741] (yolo_interface) StdoutLine: {'line': b'[ 58%] Built target yolo_interface__rosidl_typesupport_introspection_cpp\n'}
+[3.719535] (-) TimerEvent: {}
+[3.729227] (yolo_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.784135] (yolo_interface) StdoutLine: {'line': b'[ 61%] Built target yolo_interface__rosidl_typesupport_c\n'}
+[3.824119] (-) TimerEvent: {}
+[3.871475] (yolo_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.925524] (-) TimerEvent: {}
+[3.951270] (yolo_interface) StdoutLine: {'line': b'[ 64%] Built target yolo_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[3.969173] (yolo_interface) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.025660] (-) TimerEvent: {}
+[4.128698] (-) TimerEvent: {}
+[4.212000] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.228905] (-) TimerEvent: {}
+[4.239260] (yolo_interface) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_interface/msg/detail/image_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.239975] (yolo_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_interface/msg/detail/yolo__type_support_c.cpp.o\x1b[0m\n'}
+[4.329546] (-) TimerEvent: {}
+[4.429995] (-) TimerEvent: {}
+[4.528808] (yolo_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.530095] (-) TimerEvent: {}
+[4.611321] (yolo_interface) StdoutLine: {'line': b'[ 74%] Built target yolo_interface__rosidl_typesupport_fastrtps_c\n'}
+[4.627477] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface\x1b[0m\n'}
+[4.630219] (-) TimerEvent: {}
+[4.644869] (yolo_interface) StdoutLine: {'line': b'[ 74%] Built target yolo_interface\n'}
+[4.662290] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__py\x1b[0m\n'}
+[4.680941] (yolo_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.730345] (-) TimerEvent: {}
+[4.834021] (-) TimerEvent: {}
+[4.939400] (-) TimerEvent: {}
+[5.044875] (-) TimerEvent: {}
+[5.145303] (-) TimerEvent: {}
+[5.169881] (yolo_interface) StdoutLine: {'line': b'[ 76%] Built target yolo_interface__py\n'}
+[5.193776] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__python\x1b[0m\n'}
+[5.231938] (yolo_interface) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__python.dir/rosidl_generator_py/yolo_interface/msg/_yolo_s.c.o\x1b[0m\n'}
+[5.232231] (yolo_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__python.dir/rosidl_generator_py/yolo_interface/msg/_image_msg_s.c.o\x1b[0m\n'}
+[5.245414] (-) TimerEvent: {}
+[5.338422] (yolo_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_interface/libyolo_interface__python.so\x1b[0m\n'}
+[5.345713] (-) TimerEvent: {}
+[5.402541] (yolo_interface) StdoutLine: {'line': b'[ 84%] Built target yolo_interface__python\n'}
+[5.424304] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.424811] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.424872] (yolo_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolo_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.445916] (-) TimerEvent: {}
+[5.452847] (yolo_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_interface/_yolo_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.454984] (yolo_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_interface/_yolo_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.457141] (yolo_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_interface/_yolo_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.546082] (-) TimerEvent: {}
+[5.554409] (yolo_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_interface/yolo_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[5.557210] (yolo_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_interface/yolo_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[5.566016] (yolo_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/yolo_interface/yolo_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[5.606691] (yolo_interface) StdoutLine: {'line': b'[100%] Built target yolo_interface__rosidl_typesupport_c__pyext\n'}
+[5.607203] (yolo_interface) StdoutLine: {'line': b'[100%] Built target yolo_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[5.642721] (yolo_interface) StdoutLine: {'line': b'[100%] Built target yolo_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.646201] (-) TimerEvent: {}
+[5.663183] (yolo_interface) CommandEnded: {'returncode': 0}
+[5.746426] (-) TimerEvent: {}
+[5.782916] (yolo_interface) JobProgress: {'identifier': 'yolo_interface', 'progress': 'install'}
+[5.804075] (yolo_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev_ws/build/yolo_interface'], 'cwd': '/home/dev_ws/build/yolo_interface', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,45,0'), ('HOSTNAME', '3547656e0061'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/yolo_interface'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/dev_ws/build/yolo_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[5.818928] (yolo_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.820488] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/ament_index/resource_index/rosidl_interfaces/yolo_interface\n'}
+[5.820975] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface\n'}
+[5.821161] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg\n'}
+[5.821308] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail\n'}
+[5.821666] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__functions.c\n'}
+[5.821891] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__struct.h\n'}
+[5.822208] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.h\n'}
+[5.822444] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.h\n'}
+[5.822672] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__functions.c\n'}
+[5.822804] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__functions.h\n'}
+[5.822848] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__struct.h\n'}
+[5.822988] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__functions.h\n'}
+[5.823260] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/image_msg.h\n'}
+[5.823646] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.824016] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/yolo.h\n'}
+[5.824178] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/library_path.sh\n'}
+[5.824367] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/library_path.dsv\n'}
+[5.824877] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_generator_c.so\n'}
+[5.825472] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_generator_c.so" to ""\n'}
+[5.825684] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface\n'}
+[5.825847] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg\n'}
+[5.826224] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail\n'}
+[5.826279] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_fastrtps_c.h\n'}
+[5.826314] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.826378] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.826677] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[5.827231] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.827533] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface\n'}
+[5.827836] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg\n'}
+[5.827886] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail\n'}
+[5.827926] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/dds_fastrtps\n'}
+[5.827959] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.828067] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.828335] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.828662] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.829260] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.829722] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface\n'}
+[5.829877] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg\n'}
+[5.829916] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.829951] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail\n'}
+[5.830071] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.c\n'}
+[5.830186] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_introspection_c.h\n'}
+[5.830467] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.c\n'}
+[5.830725] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_introspection_c.h\n'}
+[5.830970] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_c.so\n'}
+[5.831408] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.831508] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_c.so\n'}
+[5.831928] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_c.so" to ""\n'}
+[5.832107] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface\n'}
+[5.832171] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg\n'}
+[5.832252] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.832438] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail\n'}
+[5.832501] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__builder.hpp\n'}
+[5.832846] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__traits.hpp\n'}
+[5.833212] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__traits.hpp\n'}
+[5.833434] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__builder.hpp\n'}
+[5.833872] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__struct.hpp\n'}
+[5.834020] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__struct.hpp\n'}
+[5.834179] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.hpp\n'}
+[5.834434] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.hpp\n'}
+[5.834776] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/image_msg.hpp\n'}
+[5.835114] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/yolo.hpp\n'}
+[5.835376] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface\n'}
+[5.835447] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg\n'}
+[5.835484] (yolo_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail\n'}
+[5.835543] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.835684] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/image_msg__type_support.cpp\n'}
+[5.835853] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.836140] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/include/yolo_interface/msg/detail/yolo__type_support.cpp\n'}
+[5.836293] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[5.836672] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.836800] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_cpp.so\n'}
+[5.837262] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[5.837499] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/pythonpath.sh\n'}
+[5.837732] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/pythonpath.dsv\n'}
+[5.837931] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/__init__.py\n'}
+[5.846531] (-) TimerEvent: {}
+[5.862705] (yolo_interface) StdoutLine: {'line': b"Compiling '/home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/__init__.py'...\n"}
+[5.866739] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg\n'}
+[5.866947] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_yolo_s.c\n'}
+[5.867296] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_image_msg.py\n'}
+[5.867693] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_image_msg_s.c\n'}
+[5.867926] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/__init__.py\n'}
+[5.867973] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/msg/_yolo.py\n'}
+[5.868217] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.869009] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[5.869132] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.869678] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[5.869877] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.870259] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/python3.8/site-packages/yolo_interface/yolo_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[5.870442] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/lib/libyolo_interface__python.so\n'}
+[5.870972] (yolo_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/yolo_interface/lib/libyolo_interface__python.so" to ""\n'}
+[5.871275] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/msg/ImageMsg.idl\n'}
+[5.871437] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/msg/Yolo.idl\n'}
+[5.871499] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/msg/ImageMsg.msg\n'}
+[5.871721] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/msg/Yolo.msg\n'}
+[5.872111] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/ament_index/resource_index/package_run_dependencies/yolo_interface\n'}
+[5.872225] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/ament_index/resource_index/parent_prefix_path/yolo_interface\n'}
+[5.872456] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/ament_prefix_path.sh\n'}
+[5.872780] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/ament_prefix_path.dsv\n'}
+[5.872993] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/path.sh\n'}
+[5.873251] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/environment/path.dsv\n'}
+[5.873663] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/local_setup.bash\n'}
+[5.873884] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/local_setup.sh\n'}
+[5.874075] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/local_setup.zsh\n'}
+[5.874201] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/local_setup.dsv\n'}
+[5.874289] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/package.dsv\n'}
+[5.874472] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/ament_index/resource_index/packages/yolo_interface\n'}
+[5.874775] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_generator_cExport.cmake\n'}
+[5.875093] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.875345] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.875537] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.875810] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cExport.cmake\n'}
+[5.876176] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.876349] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_generator_cppExport.cmake\n'}
+[5.876723] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.877096] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.877408] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cppExport.cmake\n'}
+[5.877800] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.877879] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[5.878263] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.878503] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.878763] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.878971] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.879107] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.879251] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.879339] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interfaceConfig.cmake\n'}
+[5.879612] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/cmake/yolo_interfaceConfig-version.cmake\n'}
+[5.879827] (yolo_interface) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/yolo_interface/share/yolo_interface/package.xml\n'}
+[5.883909] (yolo_interface) CommandEnded: {'returncode': 0}
+[5.946785] (-) TimerEvent: {}
+[6.039006] (yolo_interface) JobEnded: {'identifier': 'yolo_interface', 'rc': 0}
+[6.041178] (-) EventReactorShutdown: {}
