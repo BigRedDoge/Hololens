@@ -20,3 +20,9 @@ RUN cd home/dev_ws && . /opt/ros/foxy/setup.sh && colcon build
 
 # Source the workspace on sign in
 RUN echo ". install/local_setup.bash" >> ~/.bashrc
+
+# Install additional packages
+RUN sudo apt update && apt dist-upgrade
+RUN sudo apt install ros-foxy-vision-opencv
+RUN sudo apt install tmux
+RUN sudo apt install ros-foxy-rmw-fastrtps-cpp ros-foxy-rmw-fastrtps-shared-cpp

@@ -5,4 +5,5 @@ sudo apt update &&  sudo apt install ros-foxy-rmw-fastrtps-cpp ros-foxy-rmw-fast
 apt update && apt  dist-upgrade
 source all packages
 colcon build --packages-select holo_yolo
+colcon build --packages-select yolo_interface
 ros2 run holo_yolo holoyolo
