@@ -3,3 +3,6 @@ sudo apt install tmux
 ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=0.0.0.0
 sudo apt update &&  sudo apt install ros-foxy-rmw-fastrtps-cpp ros-foxy-rmw-fastrtps-shared-cpp
 apt update && apt  dist-upgrade
+source all packages
+colcon build --packages-select holo_yolo
+ros2 run holo_yolo holoyolo
